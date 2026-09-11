@@ -1,16 +1,18 @@
-# Cookie Sales Analysis Dashboard
+# 🍪 Cookie Sales Analysis Dashboard
 
-## Project Overview
+## 📌 Project Overview
 
-This project focuses on analyzing cookie sales data using Python and Power BI to uncover revenue trends, profit performance, product insights, and country-wise sales patterns. The objective was to transform raw sales transactions into meaningful business insights through exploratory data analysis and interactive dashboard development.
+This project focuses on analyzing cookie sales data using **Python and Power BI** to uncover revenue trends, profit performance, product insights, and country-wise sales patterns. The objective was to transform raw sales transactions into meaningful business insights through exploratory data analysis and interactive dashboard development.
 
-## Business Problem
+## 🎯 Business Problem
 
-Organizations generate large volumes of sales data but often struggle to extract actionable insights from it. This project aims to analyze sales performance across products and countries, identify revenue and profit trends, and provide an interactive reporting solution for better business decision-making.
+Organizations generate large volumes of sales data but often struggle to extract actionable insights from it. This project analyzes sales performance across products and countries, identifies revenue and profit trends, and provides an interactive reporting solution for better business decision-making.
 
-## Dataset Information
+## 🗃️ Dataset Information
 
-The dataset contains cookie sales transactions with attributes such as:
+The dataset contains cookie sales transactions across **5 countries and 6 products**, covering the period from **January 2019 to January 2020**.
+
+The dataset includes attributes such as:
 
 * Country
 * Product
@@ -22,71 +24,90 @@ The dataset contains cookie sales transactions with attributes such as:
 
 The data was cleaned and prepared for analysis before being used in Python and Power BI.
 
-## Python Analysis
+## 🐍 Python Analysis
 
-The Python workflow included:
+The Python workflow included data cleaning, feature preparation, exploratory data analysis, and visualization.
 
-### Data Cleaning and Preparation
+### 🧹 Data Cleaning and Preparation
 
-* Handled missing values and formatted data types.
-* Prepared the dataset for analysis and visualization.
+* Cleaned Revenue and Cost fields by removing currency symbols and converting them into numerical values.
+* Converted the Date field into an appropriate date format.
+* Extracted useful date-based features for analysis.
+* Prepared categorical and numerical variables for analysis.
 
-### Exploratory Data Analysis (EDA)
+### 📊 Exploratory Data Analysis (EDA)
+
+The analysis focused on:
 
 * Revenue Analysis
 * Profit Analysis
 * Product Performance Analysis
 * Country-wise Sales Analysis
-* Trend Analysis
+* Sales Trend Analysis
 * Correlation Analysis
 
-### Data Visualization
+### 📈 Data Visualization
 
 Created visualizations to identify:
 
 * Top-performing products
 * Revenue distribution across countries
-* Profitability trends
-* Sales patterns over time
+* Profitability patterns
+* Sales trends over time
+* Relationships between numerical variables
 
-## Power BI Dashboard
+## 📊 Power BI Dashboard
 
-An interactive Power BI dashboard was developed to provide business insights through:
+An interactive Power BI dashboard was developed to provide a consolidated view of sales and business performance.
 
-### Key Performance Indicators (KPIs)
+### 🔢 Key Performance Indicators (KPIs)
 
 * Total Revenue
 * Total Profit
 * Total Units Sold
-* Average Profit Margin
+* Profit Margin %
 * Revenue Per Unit
 
-### Dashboard Insights
+### 📌 Dashboard Analysis
+
+The dashboard provides insights into:
 
 * Revenue by Country
 * Revenue by Product
 * Units Sold by Product
 * Daily Revenue Trends
-* Product-wise Revenue Matrix
+* Product-wise Revenue and Performance
 * Dynamic Filtering using Slicers
 
-## Tools and Technologies
+## 🛠️ Tools & Technologies
 
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Power BI
-* Microsoft Excel
+| Category               | Tools           |
+| ---------------------- | --------------- |
+| Programming & Analysis | Python          |
+| Data Manipulation      | Pandas          |
+| Data Visualization     | Matplotlib      |
+| Business Intelligence  | Power BI        |
+| Data Preparation       | Microsoft Excel |
 
-## Key Insights
+## 💡 Key Insights
 
 * Identified the highest revenue-generating products within the dataset.
 * Analyzed country-wise sales performance and revenue contribution.
-* Evaluated profit trends and business performance metrics.
+* Evaluated profit trends and overall business performance.
+* Compared product performance using revenue and units sold.
 * Developed interactive visualizations to support data-driven decision-making.
 
-## Project Deliverables
+## ✨ Key Features
+
+* Python-based data cleaning and EDA
+* Sales and profitability analysis
+* Product and country-wise performance analysis
+* Interactive Power BI dashboard
+* KPI-based business reporting
+* Dynamic dashboard filtering
+* Visual analysis of sales trends
+
+## 📁 Project Deliverables
 
 * Python Analysis Notebook
 * Cleaned Dataset
@@ -94,6 +115,30 @@ An interactive Power BI dashboard was developed to provide business insights thr
 * Visualizations and Charts
 * Dashboard Screenshots
 
-## Conclusion
+## 📸 Dashboard Preview
 
-This project demonstrates practical skills in data cleaning, exploratory data analysis, business intelligence, and dashboard development. By combining Python and Power BI, the project converts raw sales data into meaningful insights that help evaluate business performance and support strategic decision-making.
+Dashboard screenshots are included in the repository to provide a visual overview of the completed Power BI report.
+
+## 📚 Skills Demonstrated
+
+* Python Data Analysis
+* Pandas
+* Exploratory Data Analysis
+* Data Cleaning
+* Data Visualization
+* Power BI Dashboarding
+* KPI Development
+* Business Intelligence
+* Sales Performance Analysis
+* Business Reporting
+
+## 🎓 Learning Outcomes
+
+Through this project, I gained hands-on experience in transforming raw sales data into meaningful business insights using Python and Power BI.
+
+The project strengthened my understanding of **data cleaning, exploratory data analysis, visualization, KPI development, dashboard design, and business-oriented data interpretation**.
+
+## 👩‍💻 Author
+
+**Dipannita Chiradeep Pramanik**
+B.Sc. Data Science Student
